@@ -1,0 +1,17 @@
+body{
+    font: 15px/1 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color: #FFFFFF;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+header #logo{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:40px;
+}
