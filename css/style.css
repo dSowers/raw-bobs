@@ -1,17 +1,70 @@
+html {
+    height: 100%;
+}
 body{
+    display:flex;
+    flex-direction: column;
     font: 15px/1 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
     background-color: #FFFFFF;
+
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 72px;
+}
+
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 22px;
 }
 
 .container{
     width:80%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
+.container #blurb{
+    text-align: center;
+}
+
+.container #newsletter{
+    align-content: center;
+    text-align: center;
+}
+
+#menus{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.menu{
+    border: 5px #000000;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header #info{
+    text-align: right;
+    line-height: 0.75;
+}
 header #logo{
     margin-left: auto;
     margin-right: auto;
     padding-top:40px;
+}
+
+footer{
+    font-size: 10px;
+    margin-right:10px;
+    padding:10px;
+    text-align: right;
 }
