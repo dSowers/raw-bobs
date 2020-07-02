@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     font: 15px/1 Arial, Helvetica, sans-serif;
     padding:0;
-    margin:0;
+    margin:10px;
     flex-wrap: wrap;
     background-color: #FFFFFF;
 
@@ -14,7 +14,7 @@ body{
 
 h1{
     font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
+    font-size: 54px;
 }
 
 h2{
@@ -23,7 +23,7 @@ h2{
 }
 
 .container{
-    width:80%;
+    width:90%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -31,6 +31,7 @@ h2{
 
 .container #blurb{
     text-align: center;
+    width:100%;
 }
 
 .container #newsletter{
