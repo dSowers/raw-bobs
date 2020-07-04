@@ -1,25 +1,18 @@
-html {
-    height: 100%;
-}
 body{
     display:flex;
     flex-direction: column;
     font: 15px/1 Arial, Helvetica, sans-serif;
-    padding:0;
-    margin:10px;
-    flex-wrap: wrap;
-    background-color: #FFFFFF;
-
 }
-
 h1{
     font-family: 'Fredericka the Great', cursive;
     font-size: 54px;
 }
-
 h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 22px;
+}
+h3{
+    font-size: 18px;
 }
 
 .container{
@@ -28,40 +21,36 @@ h2{
     display: flex;
     justify-content: center;
 }
-
 .container #blurb{
     text-align: center;
     width:100%;
 }
 
-.container #newsletter{
-    align-content: center;
-    text-align: center;
-}
-
 #menus{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px;
-}
-
-.menu{
-    border: 5px #000000;
 }
 
 header{
     display: flex;
-    justify-content: space-evenly;
+    height:200px;
 }
 
 header #info{
+    flex: 1;
     text-align: right;
-    line-height: 0.75;
+    line-height: 0.5;
+    height:200px;
+    min-width: 175px;
 }
 header #logo{
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:40px;
+    flex: 1;
+}
+
+header #logo img{
+    max-height:200px;
+    max-width:80%;
 }
 
 footer{
