@@ -8,8 +8,8 @@ h1{
     font-size: 54px;
 }
 h2{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 22px;
+    font-variant: all-small-caps;
+    font-size: 24px;
 }
 h3{
     font-size: 18px;
@@ -28,8 +28,26 @@ h3{
 
 #menus{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #menus{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+}
+
+#food{
+    text-align: center;
+}
+
+#drinks{
+    text-align: center;
 }
 
 header{
